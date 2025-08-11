@@ -72,6 +72,16 @@ Users are expected to:
 - ✅ Comply with all applicable laws and regulations
 - ✅ Use the knowledge gained responsibly
 
+[![License: Custom](https://img.shields.io/badge/License-Custom-blue.svg)](./LICENSE)
+
+## 📜 License
+This project is licensed under a **Custom License**.
+
+- ✅ Free to use, modify, and run for personal or commercial purposes.  
+- ❌ You may **not** sell, license, or redistribute the code itself for monetary or other compensation.  
+
+See the [LICENSE](./LICENSE) file for full terms.
+
 ---
 
 **Happy Building! 🏗️**
