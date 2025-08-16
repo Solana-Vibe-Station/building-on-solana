@@ -1,0 +1,36 @@
+{
+  "name": "svs_grpc_vs_websockets",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "startgrpc": "node dist/index.js",
+    "grpc": "ts-node src/indexGrpc.ts",
+    "wss": "ts-node src/indexWss.ts",
+    "benchmark": "ts-node src/benchmark/output.ts",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "eslint": "^9.15.0",
+    "globals": "^15.12.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.16.0"
+  },
+  "dependencies": {
+    "@project-serum/anchor": "^0.26.0",
+    "@solana/spl-token": "^0.4.13",
+    "@solana/web3.js": "^1.95.5",
+    "@triton-one/yellowstone-grpc": "^4.0.0",
+    "@types/ws": "^8.18.1",
+    "axios": "^1.11.0",
+    "bs58": "^6.0.0",
+    "date-fns": "^4.1.0",
+    "dotenv": "^16.4.5",
+    "ws": "^8.18.3"
+  }
+}
