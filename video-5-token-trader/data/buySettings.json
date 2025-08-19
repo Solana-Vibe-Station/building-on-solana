@@ -1,0 +1,7 @@
+{
+  "solAmount": "0.001",
+  "slippage": "20",
+  "priorityType": "prio",
+  "priorityFee": "0.001",
+  "websocketAutoBuy": false
+}
